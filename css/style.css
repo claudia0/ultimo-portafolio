@@ -142,16 +142,16 @@ p{
  }
 
 .prycto{
-width: 60%;
-height: 60%;
+width: 30%;
+height: 30%;
 border: solid white 1px;
 padding: 2%;
 margin:3%;
 border-radius: 8px;
 }
 .prycto:hover{
-	width: 75%;
-	height: 75%;
+	width: 35%;
+	height: 40%;
 	border: solid yellow 2px;
 }
 .fdo-pycto{
