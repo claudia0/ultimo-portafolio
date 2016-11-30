@@ -1,0 +1,160 @@
+
+.pdg{
+	padding: 8%;
+}
+.pdg2{
+	padding: 4%;
+
+}
+a{
+	color: black;
+}
+nav{
+	background-color: #CDEC13!important;
+	opacity: .5;
+	font-family: 'Oswald', sans-serif !important;
+	font-size: 1.5em;
+	height: 65px !important;
+
+}
+  nav a:hover {
+	background-color: #FF684C !important;
+	font-size: 1.2em;
+	font-family: 'Special Elite', cursive !important;
+
+}	
+
+#logoizq{
+	color: black !important;
+	font-family: 'Special Elite', cursive !important;
+	font-size: 2em;
+}
+header{ 
+	background-image: url("../img/Ground-Zero.jpg");
+	-webkit-filter:contrast(130%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	height: 800px;
+}
+h1:hover{
+	color: yellow;
+}
+h2{
+	font-size: 4em;
+	font-family: 'Oswald', sans-serif !important;
+
+}
+h1{
+ 	font-family: 'Special Elite', cursive !important;
+	font-size: 5em;
+	margin-top: 10%;
+}
+h3{
+	font-family: 'Special Elite', cursive !important;
+	padding-left: 5%;
+	font-size: 2.5em;
+	margin: 0px !important;
+
+}
+h4{
+	font-family: 'Oswald', sans-serif !important;
+	color: #C2A503;
+	font-size: 2.5em;
+	margin-left: 5%;
+	margin-right: 10%;
+}	
+#github:hover{
+ color: yellow;
+}
+#nameInicio{
+	margin-left: 70px;
+}
+
+.btn{
+	border-radius: 10px;
+	padding: 1.5%;
+	font-size: 2.5em;
+	background-color: lightgrey;
+	margin-top: 5%;
+	width: 250px;
+	font-family: 'Special Elite', cursive !important;
+	opacity: 0.8;	
+}
+
+.iconoweb{
+	border: solid grey 1px;
+	border-radius: 8px;
+	max-width: 120px;
+	height: 120px;
+	margin-left: 10%;
+	padding: 3%;
+	margin-bottom: 30% !important;
+}
+
+p{
+	
+	font-family: 'Special Elite', cursive !important;
+	font-size: 1.5em;
+
+}	
+.btn:hover,.nav:focus {
+     color: #E5C40C;
+     background-color: black;
+
+ }
+ #txtInicio{
+ 	color: #B39C20;
+ 	font-size: 5em;
+ 	margin-left: 23% !important;
+ 	font-family: 'Oswald', sans-serif !important;
+ }
+ 
+ .seccionYo{
+ 		background-image: url("../img/brickwall.png");
+
+ }
+
+ .foto{/*img-sobre mi*/
+ 	margin:3%; 
+ 	width: 200px;
+ 	height: 150px;
+ 	border-radius: 8px;
+ 	padding-bottom: 2%;
+ 	
+ }
+
+ .titulo{
+ 	padding: 0px;
+ 	margin: 0px;
+ 	background-image: url("../img/little_pluses.png");
+ 
+ }
+ footer{
+ 	background-color: #6E6E6E;
+ 	height: 300px;
+ }
+ .cntcto{
+ 	margin-left: 3%;
+	color: #E1DED2;
+	padding: 2%;
+	border-radius: 8px;
+ }
+
+.prycto{
+width: 60%;
+height: 60%;
+border: solid white 1px;
+padding: 2%;
+margin:3%;
+border-radius: 8px;
+}
+.prycto:hover{
+	width: 75%;
+	height: 75%;
+	border: solid yellow 2px;
+}
+.fdo-pycto{
+	 	background-image: url("../img/mochaGrunge.png");
+
+}
