@@ -198,3 +198,7 @@ border-radius: 8px;
 .row{
 	padding: 0px !important;
 }
+
+#sidenav-overlay {
+	display: none;
+}

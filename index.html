@@ -5,10 +5,8 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Kreon|Oswald|Play|Source+Code+Pro|Special+Elite" rel="stylesheet">
-    <link href="css/materialize.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/materialize.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 </head>
 <body>
@@ -19,23 +17,23 @@
                     <a href="#!" class="brand-logo"><b>[CM]</b></a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="#sobreMi">Acerca de mi</a></li>
-                        <li><a href="#web"> Habilidades</a></li>
-                        <li><a href="#contacto">Contácto</a></li>
-                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li class="btnSobreMi"><a >Acerca de mi</a></li>
+                        <li class="btnWeb"><a> Habilidades</a></li>
+                        <li class="btnContacto"><a>Contácto</a></li>
+                        <li class="btnProyectos"><a>Proyectos</a></li>
                     </ul>
                     <ul class="side-nav" id="mobile-demo">
-                        <li><a href="#sobreMi">Acerca de mi</a></li>
-                        <li><a href="#web">Habilidades</a></li>
-                        <li><a href="#contacto">Contácto</a></li>
-                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li class="btnSobreMi"><a>Acerca de mi</a></li>
+                        <li class="btnWeb"><a>Habilidades</a></li>
+                        <li class="btnContacto"><a>Contácto</a></li>
+                        <li class="btnProyectos"><a>Proyectos</a></li>
                     </ul>
                 </div>
             </div>
         </nav>        
         <div id="nameInicio" class="row">
             <div class="col m12 col l12 col s12">
-                <h1 id="proyectos">Claudia Marañón</h1>
+                <h1>Claudia Marañón</h1>
                 <p id="txtInicio">Desarrollo web Front-End</p>
             </div>
         </div> 
@@ -45,10 +43,10 @@
             </div>
         </div>  -->
     </header>
-    <section class="seccionYo"><!--Acerca de mi-->
+    <section class="seccionYo" id="sobreMi" name="sobreMi"><!--Acerca de mi-->
         <div class="row">
             <div class="col l12 col s12 titulo">
-                <h3 id=sobreMi class="text-center">Acerca de mi</h3>
+                <h3  class="text-center">Acerca de mi</h3>
             </div>
         </div>
         <div class="row">
@@ -80,11 +78,11 @@
             </div>
         </div>
     </section> 
-    <section><!--habilidades-->
+    <section id="web" name="web"><!--habilidades-->
         <div class="row seccionYo ">
             <div class="row">
                 <div class="col-xs-12 col-lg-12 titulo">
-                    <h3 id="web">Herramientas de desarrollo web</h3>
+                    <h3>Herramientas de desarrollo web</h3>
                 </div>
             </div>
             <div class="pdg2">
@@ -109,10 +107,10 @@
             </div>
         </div>
     </section>
-    <section ><!--Proyectos-->
+    <section id="proyectos" name="proyectos"><!--Proyectos-->
             <div class="row">
                 <div class="col m12 col l12 col s12 titulo">
-                    <h3 id="proyectos">Proyectos</h3>
+                    <h3 >Proyectos</h3>
                 </div>
             </div>
             <div class="row text-center fdo-pycto">
@@ -132,10 +130,10 @@
                 </div>
             </div>
     </section>
-    <footer>
+    <footer id="contacto" name="contacto">
             <div class="row">
                 <div class="col m12 col s12 col l12 titulo">
-                    <h3 id="contacto">Contacto</h3>
+                    <h3>Contacto</h3>
                 </div>
             </div>
             <div class="row mg-tp">
