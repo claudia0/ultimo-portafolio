@@ -11,12 +11,12 @@
 </head>
 <body>
 	<header>
-        <nav class="button-collapse grey-text">
-            <div class="navbar-fixed">
+        <div class="navbar-fixed">
+            <nav class="button-collapse grey-text">
                 <div class="nav-wrapper">
                     <a href="#!" class="brand-logo"><b>[CM]</b></a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
+                    <ul class="right hide-on-small-only">
                         <li class="btnSobreMi"><a >Acerca de mi</a></li>
                         <li class="btnWeb"><a> Habilidades</a></li>
                         <li class="btnContacto"><a>Contácto</a></li>
@@ -28,20 +28,15 @@
                         <li class="btnContacto"><a>Contácto</a></li>
                         <li class="btnProyectos"><a>Proyectos</a></li>
                     </ul>
-                </div>
-            </div>
-        </nav>        
+                </div> 
+            </nav>
+        </div>    
         <div id="nameInicio" class="row">
             <div class="col m12 col l12 col s12">
-                <h1>Claudia Marañón</h1>
+                <a href="Claudia Marañón CV.pdf" target="_blank" ><h1 class="tooltipped" data-tooltip="Descarga mi CV">Claudia Marañón</h1></a>
                 <p id="txtInicio">Desarrollo web Front-End</p>
             </div>
         </div> 
-       <!--  <div id="" class="row text-center">
-            <div class="col m12 col l12 col s12">
-                <a href="#proyectos"><button id="boton" class="btn btn-lg">Proyectos</button></a>
-            </div>
-        </div>  -->
     </header>
     <section class="seccionYo" id="sobreMi" name="sobreMi"><!--Acerca de mi-->
         <div class="row">
@@ -49,34 +44,57 @@
                 <h3  class="text-center">Acerca de mi</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col m6 col s12 col l6"><!--aqui va el txt de acerca de mi-->
-                <h2>HOLA!</h2>
-                <p>Mi nombre es <b>Claudia Marañón</b> Estudié la Lic. en Música, del arte he aprendido gran parte de lo que soy.
-                 Disfruto conocer todo tipo de cosas y relacionarlas a lo que hago. Ahora con Laboratoria realizo Desarrollo Web Front-End junior y en solo 5 meses mi panorama se ha ampliado</p>
-                <p>El sector digital me ha atrapado, me gusta viajar, la fotografía, y los animales. Me intereso por proyectos interdisciplinarios, UX  y en encontrar un gran equipo de trabajo a sumar más oportunidades.</p>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="img/arte.jpg" alt="yo1" class="img-responsive foto"><!-- random image -->
+                    <div class="caption center-align">
+                        <h3>"La tecnología y el arte me dasafían a fabricar experiencias"</h3>
+                        <h4><b>Mis dos ejes que reinventan mi capacidad de asombro</b></h4>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/guitarra.jpg" alt="yo1" class="img-responsive foto"><!-- random image -->
+                    <div class="caption left-align">
+                        <h3>Soy analítica y creativa, nunca tengo miedo de volver a empezar.</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/lab.jpg" alt="yo1" class="img-responsive foto"> <!-- random image -->
+                    <div class="caption right-align">
+                        <h3 class=" orange-text text-lighten-2">Disfruto compartiendo un crecimiento mutuo y potencio mi éxito.</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/clau5.jpg" alt="yo1" class="img-responsive foto"><!-- random image -->
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="row pdg">
+            <div class="col m12 col s12 col l12"><!--aqui va el txt de acerca de mi-->
+               <h3 class="center-align green-text text-lighten-2">Desarrolladora Web Front-End/Lic. en Guitarra</h3>
+                <p>Mi nombre es <b>Claudia Marañón,</b>crecí en Monclova Coah., y hoy sueño día a día en Cd.de México. Me encanta viajar 
+                el arte he aprendido gran parte de lo que soy.
+                Disfruto conocer todo tipo de cosas y relacionarlas a lo que hago. Ahora con Laboratoria realizo Desarrollo Web Front-End junior y en solo 5 meses mi panorama se ha ampliado</p>
+                
             </div>
             <div class="col m6 col s12 col l6"><!--cuadricula de fotos-->
-                <div class="pdg">
-                    <div class="row">
-                        <div class="col m6 cols-12 col-lg-6">
-                            <img src="img/clau5.jpg" alt="yo1" class="img-responsive foto">
-                        </div>
-                        <div class="col m6 cols-12 col-lg-6">
-                             <img src="img/claus1.jpg" alt="yo1" class="img-responsive foto">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col m6 col s12 col l6">   
-                            <img src="img/clau2.jpg" alt="yo1" class="img-responsive foto"> 
-                        </div>
-                        <div class="col m6 col s12 col l6">
-                            <img src="img/clau4.jpg" alt="yo1" class="img-responsive foto">
-                        </div>
-                    </div>
-                </div>      
+               
+                <p>El sector digital me ha atrapado, me gusta viajar, la fotografía, y los animales. Me intereso por proyectos interdisciplinarios, UX  y en encontrar un gran equipo de trabajo a sumar más oportunidades.</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col m6 col s12 col 16">
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, perferendis ut consequuntur corrupti maxime possimus atque quod doloribus, blanditiis amet cum vitae obcaecati nihil, sed nesciunt nemo recusandae in repellendus.</p>
+            </div>             
+           
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, perferendis ut consequuntur corrupti maxime possimus atque quod doloribus, blanditiis amet cum vitae obcaecati nihil, sed nesciunt nemo recusandae in repellendus.</p>
+        </div>     
     </section> 
     <section id="web" name="web"><!--habilidades-->
         <div class="row seccionYo ">
@@ -138,7 +156,7 @@
             </div>
             <div class="row mg-tp">
                 <div class="col m4 col s4 col l4 center-align">
-                    <h4>reyesclaudiav@gmail.com</h4> 
+                    <h4>reyesclaudiav@gmail.com</h4>
                     <span class="fa-stack fa-4x cntcto">
                         <i class="fa fa-square-o fa-stack-2x"></i>
                         <i class="fa fa-envelope fa-stack-1x"></i> 
@@ -151,7 +169,7 @@
                         <i class="fa fa-volume-control-phone fa-stack-1x"></i>
                     </span>
                 </div>
-                <div class="col m4 col s4 col l4 left-align">
+                <div class="col m4 col s12 col l4 left-align">
                     <a href="https://github.com/claudia0"><h4 id="github">https://github.com/claudia0</h4></a>
                     <span class="fa-stack fa-4x cntcto">
                         <i class="fa fa-square-o fa-stack-2x"></i>

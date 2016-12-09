@@ -21,8 +21,21 @@ $( document ).ready(function(){
 		window.location = "#proyectos";
 		$(".button-collapse").sideNav()
 	});
+
+      $('.slider').slider({full_width: true});
+      // Pause slider
+    $('.slider').slider('pause');
+// Start slider
+    $('.slider').slider('start');
+// Next slide
+    $('.slider').slider('next');
+// Previous slide
+    $('.slider').slider('prev');
+    
+    });
+
  
-});
+
   
   // Show sideNav
   
